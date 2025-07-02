@@ -1,0 +1,19 @@
+{
+  "name": "eth-swap-devops-challenge",
+  "version": "1.0.0",
+  "description": "Swap optimizer / path finder using Chainlink price oracles",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.7.0",
+    "express": "^5.1.0",
+    "graphnetworkx": "^2.1.8",
+    "kleur": "^4.1.5",
+    "lodash": "^4.17.21",
+    "prompt-sync": "^4.2.0"
+  }
+}
